@@ -45,9 +45,4 @@ resource = icingaweb-mysql
 
 #### <a id="preferences-configuration-db-setup"></a> Database Setup
 
-For storing preferences in a database, you have to import one of the following database schemas:
-
-* **etc/schema/preferences.mysql.sql** (for **MySQL** database)
-* **etc/schema/preferences.pgsql.sql** (for **PostgreSQL** databases)
-
-After that you have to define the [database resource](resources.md#resources-configuration-database).
+For storing preferences in a database, you have to define the [database resource](resources.md#resources-configuration-database).
